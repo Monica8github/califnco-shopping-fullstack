@@ -61,6 +61,10 @@ export function setDemoToken(value: string) {
   else sessionStorage.removeItem("califnco-demo-token");
 }
 export const isBrowserDemo = () => demoToken.startsWith("browser-demo:");
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "").replace(
+  /\/+$/,
+  "",
+);
 export async function api<T = any>(
   path: string,
   method = "GET",
@@ -72,14 +76,14 @@ export async function api<T = any>(
   }
   const token = demoToken || (await auth?.currentUser?.getIdToken());
   const request = (bearer: string) =>
-    fetch("/api" + path, {
-    method,
-    headers: {
-      "Content-Type": "application/json",
-      ...(bearer ? { Authorization: "Bearer " + bearer } : {}),
-    },
-    ...(body === undefined ? {} : { body: JSON.stringify(body) }),
-  });
+    fetch(`${apiBaseUrl}/api${path}`, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        ...(bearer ? { Authorization: "Bearer " + bearer } : {}),
+      },
+      ...(body === undefined ? {} : { body: JSON.stringify(body) }),
+    });
   let response = await request(token || "");
   if (response.status === 401 && !demoToken && auth?.currentUser) {
     const refreshedToken = await auth.currentUser.getIdToken(true);

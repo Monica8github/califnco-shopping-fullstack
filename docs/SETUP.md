@@ -56,6 +56,23 @@ After deployment verify:
 
 Vercel deployment protection must permit the intended evaluator, native API traffic, Razorpay webhook, and scheduler. Configure project access appropriately; do not distribute a temporary protection-bypass secret inside the Android app. This project does not modify account-wide protection settings.
 
+## 7. Render API Web Service
+
+The API can run as a separate Render Web Service while the storefront remains on Vercel or another static host. Create a Web Service from the existing GitHub repository, set its Root Directory to the repository root, and use:
+
+- Build Command: `npm ci && npm run build:api`
+- Start Command: `npm run start:api`
+- Health Check Path: `/api/health`
+- Runtime: Node.js 22.13+ (Node 24 recommended)
+
+`build:api` compiles the server and API dependencies to `.local/runtime`; `start:api` runs the compiled HTTP server with Node and does not require `tsx` at runtime. Render supplies `PORT`; the server binds to it on `0.0.0.0`. Without `PORT`, local API development continues to use port 8787, matching the Vite proxy. The server serves product images from `apps/admin/public/products`, so keep the service Root Directory at the repository root.
+
+For a live Firebase-backed service, set `FIREBASE_PROJECT_ID`, `FIREBASE_SERVICE_ACCOUNT_JSON`, and `DEMO_MODE=false` in the Render service environment. Obtain the project ID and service-account JSON from your Firebase project; keep the JSON as a private server environment variable. Never set service-account credentials in a `VITE_` or `EXPO_PUBLIC_` variable.
+
+For a separately hosted browser storefront, set `VITE_API_BASE_URL` to the Render service origin (without `/api`) in the storefront host's build environment, then rebuild/redeploy the storefront. On Render, set `ALLOWED_ORIGINS` to the exact browser origin(s), comma-separated if needed. `VITE_FIREBASE_API_KEY`, `VITE_FIREBASE_AUTH_DOMAIN`, `VITE_FIREBASE_PROJECT_ID`, and `VITE_FIREBASE_APP_ID` are public Firebase Web App settings and belong in the storefront build environment; the Firebase project IDs must match. Native clients use `EXPO_PUBLIC_API_URL` for the API origin. Same-origin deployments can leave `VITE_API_BASE_URL` and `ALLOWED_ORIGINS` blank.
+
+After deployment, open `https://<render-service-domain>/api/health`; HTTP 200 confirms that the endpoint responds. For a live setup, also confirm the response reports `mode: "firebase"` rather than `setup-required`. Firebase Authentication, Firestore rules/indexes, administrator bootstrap, and any payment-provider webhooks still require the setup described above.
+
 ## Known scale boundary
 
 This is an assignment-sized implementation. Lists are capped at 500 records, device fan-out at 20 tokens per user, and maintenance processes at most 500 pending orders per invocation. Larger installations need pagination, indexed expiry queries, durable notification workers, request limits, operational monitoring, and a separate review/refund process. Those are not presented as completed features.

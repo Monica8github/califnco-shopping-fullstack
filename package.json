@@ -16,6 +16,8 @@
     "dev:api": "node --watch --import tsx --env-file-if-exists=.env functions/dev.ts",
     "dev:admin": "npm run dev -w apps/admin -- --host 0.0.0.0 --port 4173",
     "build": "npm run build:storefront",
+    "build:api": "tsc -p tsconfig.runtime.json",
+    "start:api": "node .local/runtime/functions/dev.js",
     "check": "tsc --noEmit && npm run check -w apps/admin && npm run check -w apps/storefront && npm run check -w apps/mobile",
     "test": "node --import tsx --test tests/*.test.ts",
     "seed": "node --import tsx --env-file-if-exists=.env scripts/seed.ts",

@@ -1,9 +1,12 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
 import { handle } from "./app.js";
-// Native clients use the API origin for catalogue images as well. In production
-// Vercel serves these assets; keep the same URLs working in local development.
-createServer(async (req, res) => {
+const productImageDirectory = resolve(
+  process.cwd(),
+  "apps/admin/public/products",
+);
+const server = createServer(async (req, res) => {
   const path = new URL(req.url || "/", "http://localhost").pathname;
   if (
     ["GET", "HEAD"].includes(req.method || "GET") &&
@@ -11,7 +14,7 @@ createServer(async (req, res) => {
   ) {
     try {
       const data = await readFile(
-        new URL("../apps/admin/public" + path, import.meta.url),
+        resolve(productImageDirectory, path.slice("/products/".length)),
       );
       const extension = path.split(".").pop();
       res.setHeader(
@@ -32,6 +35,8 @@ createServer(async (req, res) => {
     return;
   }
   await handle(req, res);
-}).listen(8787, "0.0.0.0", () =>
-  console.log("Califnco API: http://localhost:8787"),
+});
+const port = Number.parseInt(process.env.PORT || "8787", 10);
+server.listen(port, "0.0.0.0", () =>
+  console.log(`Califnco API listening on port ${port}`),
 );
