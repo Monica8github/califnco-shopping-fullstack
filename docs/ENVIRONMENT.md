@@ -8,7 +8,7 @@ Copy root `.env.example` to `.env` for local services. Both web apps set Vite `e
 
 | Variable                         | Purpose / requirement                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `CALIFNCO_APP`                   | `admin`, `storefront` or `automation`; selects the independent deployment build. Defaults to admin.                                  |
+| `CALIFNCO_APP`                   | `admin`, `storefront` or `automation`; selects the independent deployment build. Defaults to storefront.                             |
 | `DEMO_MODE`                      | `true` only for the local simulated API. Forced off on Vercel or when `NODE_ENV=production`.                                         |
 | `DEMO_DATA_FILE`                 | Optional local demo JSON path; default `.local/demo.json`. Present in `.env.demo.example`.                                           |
 | `FIREBASE_PROJECT_ID`            | Firebase project ID for the server/seed/bootstrap.                                                                                   |

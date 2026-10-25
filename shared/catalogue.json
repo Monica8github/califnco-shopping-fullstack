@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "cal-pur-001",
+    "name": "Countertop Carbon Water Purifier",
+    "category": "Purifiers",
+    "description": "A compact countertop filter format for a kitchen water station. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-carbon.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-countertop-drinking-water-system-with-0-5-micron-microban-carbon-block",
+    "price": 5499,
+    "wholesalePrice": 4289,
+    "stock": 23,
+    "minDealerQty": 2,
+    "featured": true,
+    "specs": {
+      "Format": "Countertop",
+      "Finish": "White",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-002",
+    "name": "Slim Under-Sink RO Purifier",
+    "category": "Purifiers",
+    "description": "Slim under-sink purifier format with a separate drinking-water faucet. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/tankless-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/waterdrop-reverse-osmosis-water-filtration-system",
+    "price": 18999,
+    "wholesalePrice": 14819,
+    "stock": 30,
+    "minDealerQty": 2,
+    "featured": true,
+    "specs": {
+      "Format": "Under-sink",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-003",
+    "name": "Countertop RO Water Purifier",
+    "category": "Purifiers",
+    "description": "Freestanding countertop purifier with an integrated dispensing area. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/countertop-ro-water-filter-system-wd-k19-s",
+    "price": 12999,
+    "wholesalePrice": 10139,
+    "stock": 37,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-004",
+    "name": "Countertop Carbon Water Purifier - 2-Pack",
+    "category": "Purifiers",
+    "description": "A compact countertop filter format for a kitchen water station. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-carbon.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-countertop-drinking-water-system-with-0-5-micron-microban-carbon-block",
+    "price": 10668,
+    "wholesalePrice": 8321,
+    "stock": 44,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Finish": "White",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-005",
+    "name": "Slim Under-Sink RO Purifier - 2-Pack",
+    "category": "Purifiers",
+    "description": "Slim under-sink purifier format with a separate drinking-water faucet. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/tankless-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/waterdrop-reverse-osmosis-water-filtration-system",
+    "price": 36858,
+    "wholesalePrice": 28749,
+    "stock": 51,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Under-sink",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-006",
+    "name": "Countertop RO Water Purifier - 2-Pack",
+    "category": "Purifiers",
+    "description": "Freestanding countertop purifier with an integrated dispensing area. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/countertop-ro-water-filter-system-wd-k19-s",
+    "price": 25218,
+    "wholesalePrice": 19670,
+    "stock": 58,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-007",
+    "name": "Countertop Carbon Water Purifier - 3-Pack",
+    "category": "Purifiers",
+    "description": "A compact countertop filter format for a kitchen water station. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-carbon.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-countertop-drinking-water-system-with-0-5-micron-microban-carbon-block",
+    "price": 16002,
+    "wholesalePrice": 12482,
+    "stock": 65,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Finish": "White",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-008",
+    "name": "Slim Under-Sink RO Purifier - 3-Pack",
+    "category": "Purifiers",
+    "description": "Slim under-sink purifier format with a separate drinking-water faucet. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/tankless-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/waterdrop-reverse-osmosis-water-filtration-system",
+    "price": 55287,
+    "wholesalePrice": 43124,
+    "stock": 72,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Under-sink",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-009",
+    "name": "Countertop RO Water Purifier - 3-Pack",
+    "category": "Purifiers",
+    "description": "Freestanding countertop purifier with an integrated dispensing area. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-ro.png",
+    "imageSource": "https://www.waterdropfilter.com/products/countertop-ro-water-filter-system-wd-k19-s",
+    "price": 37827,
+    "wholesalePrice": 29505,
+    "stock": 79,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Treatment": "Reverse osmosis",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pur-010",
+    "name": "Countertop Carbon Water Purifier - 4-Pack",
+    "category": "Purifiers",
+    "description": "A compact countertop filter format for a kitchen water station. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-carbon.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-countertop-drinking-water-system-with-0-5-micron-microban-carbon-block",
+    "price": 21336,
+    "wholesalePrice": 16642,
+    "stock": 86,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Finish": "White",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-011",
+    "name": "Bottom-Loading Water Dispenser",
+    "category": "Dispensers",
+    "description": "Floor-standing dispenser with the bottle stored in the lower cabinet. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/bottom-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 10499,
+    "wholesalePrice": 8189,
+    "stock": 93,
+    "minDealerQty": 2,
+    "featured": true,
+    "specs": {
+      "Loading": "Bottom",
+      "Format": "Floor-standing",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-012",
+    "name": "Top-Loading Water Dispenser",
+    "category": "Dispensers",
+    "description": "Floor-standing bottled-water dispenser in a compact office-friendly format. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/top-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 8499,
+    "wholesalePrice": 6629,
+    "stock": 100,
+    "minDealerQty": 2,
+    "featured": true,
+    "specs": {
+      "Loading": "Top",
+      "Format": "Floor-standing",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-013",
+    "name": "Countertop Water Dispenser",
+    "category": "Dispensers",
+    "description": "Countertop water-dispensing unit with an integrated front control panel. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-dispenser.png",
+    "imageSource": "https://www.waterdropfilter.com/products/ro-hot-cold-water-dispenser-a1",
+    "price": 16499,
+    "wholesalePrice": 12869,
+    "stock": 22,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Controls": "Front panel",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-014",
+    "name": "Bottom-Loading Water Dispenser - 2-Pack",
+    "category": "Dispensers",
+    "description": "Floor-standing dispenser with the bottle stored in the lower cabinet. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/bottom-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 20368,
+    "wholesalePrice": 15887,
+    "stock": 29,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Loading": "Bottom",
+      "Format": "Floor-standing",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-015",
+    "name": "Top-Loading Water Dispenser - 2-Pack",
+    "category": "Dispensers",
+    "description": "Floor-standing bottled-water dispenser in a compact office-friendly format. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/top-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 16488,
+    "wholesalePrice": 12861,
+    "stock": 36,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Loading": "Top",
+      "Format": "Floor-standing",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-016",
+    "name": "Countertop Water Dispenser - 2-Pack",
+    "category": "Dispensers",
+    "description": "Countertop water-dispensing unit with an integrated front control panel. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-dispenser.png",
+    "imageSource": "https://www.waterdropfilter.com/products/ro-hot-cold-water-dispenser-a1",
+    "price": 32008,
+    "wholesalePrice": 24966,
+    "stock": 43,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Controls": "Front panel",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-017",
+    "name": "Bottom-Loading Water Dispenser - 3-Pack",
+    "category": "Dispensers",
+    "description": "Floor-standing dispenser with the bottle stored in the lower cabinet. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/bottom-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 30552,
+    "wholesalePrice": 23831,
+    "stock": 50,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Loading": "Bottom",
+      "Format": "Floor-standing",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-018",
+    "name": "Top-Loading Water Dispenser - 3-Pack",
+    "category": "Dispensers",
+    "description": "Floor-standing bottled-water dispenser in a compact office-friendly format. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/top-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 24732,
+    "wholesalePrice": 19291,
+    "stock": 57,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Loading": "Top",
+      "Format": "Floor-standing",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-019",
+    "name": "Countertop Water Dispenser - 3-Pack",
+    "category": "Dispensers",
+    "description": "Countertop water-dispensing unit with an integrated front control panel. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/countertop-dispenser.png",
+    "imageSource": "https://www.waterdropfilter.com/products/ro-hot-cold-water-dispenser-a1",
+    "price": 48012,
+    "wholesalePrice": 37449,
+    "stock": 64,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Format": "Countertop",
+      "Controls": "Front panel",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-dis-020",
+    "name": "Bottom-Loading Water Dispenser - 4-Pack",
+    "category": "Dispensers",
+    "description": "Floor-standing dispenser with the bottle stored in the lower cabinet. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/bottom-load.png",
+    "imageSource": "https://www.water.com/support/equipment-support/",
+    "price": 40736,
+    "wholesalePrice": 31774,
+    "stock": 71,
+    "minDealerQty": 2,
+    "featured": false,
+    "specs": {
+      "Loading": "Bottom",
+      "Format": "Floor-standing",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-021",
+    "name": "Electric RO Booster Pump",
+    "category": "Pumps",
+    "description": "Electric booster pump format for compatible reverse-osmosis installations. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/electric-booster.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-reverse-osmosis-electric-booster-pump",
+    "price": 2399,
+    "wholesalePrice": 1871,
+    "stock": 78,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Type": "Booster pump",
+      "Use": "Compatible RO systems",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-022",
+    "name": "Compact Diaphragm Booster Pump",
+    "category": "Pumps",
+    "description": "Compact diaphragm-style water pressure booster for compatible systems. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/diaphragm-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 1899,
+    "wholesalePrice": 1481,
+    "stock": 85,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-023",
+    "name": "High-Flow Diaphragm Booster Pump",
+    "category": "Pumps",
+    "description": "Larger diaphragm-style booster pump for compatible water-system assemblies. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/high-flow-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 2899,
+    "wholesalePrice": 2261,
+    "stock": 92,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-024",
+    "name": "Electric RO Booster Pump - 2-Pack",
+    "category": "Pumps",
+    "description": "Electric booster pump format for compatible reverse-osmosis installations. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/electric-booster.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-reverse-osmosis-electric-booster-pump",
+    "price": 4654,
+    "wholesalePrice": 3630,
+    "stock": 99,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Booster pump",
+      "Use": "Compatible RO systems",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-025",
+    "name": "Compact Diaphragm Booster Pump - 2-Pack",
+    "category": "Pumps",
+    "description": "Compact diaphragm-style water pressure booster for compatible systems. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/diaphragm-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 3684,
+    "wholesalePrice": 2874,
+    "stock": 21,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-026",
+    "name": "High-Flow Diaphragm Booster Pump - 2-Pack",
+    "category": "Pumps",
+    "description": "Larger diaphragm-style booster pump for compatible water-system assemblies. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/high-flow-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 5624,
+    "wholesalePrice": 4387,
+    "stock": 28,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-027",
+    "name": "Electric RO Booster Pump - 3-Pack",
+    "category": "Pumps",
+    "description": "Electric booster pump format for compatible reverse-osmosis installations. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/electric-booster.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-reverse-osmosis-electric-booster-pump",
+    "price": 6981,
+    "wholesalePrice": 5445,
+    "stock": 35,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Booster pump",
+      "Use": "Compatible RO systems",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-028",
+    "name": "Compact Diaphragm Booster Pump - 3-Pack",
+    "category": "Pumps",
+    "description": "Compact diaphragm-style water pressure booster for compatible systems. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/diaphragm-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 5526,
+    "wholesalePrice": 4310,
+    "stock": 42,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-029",
+    "name": "High-Flow Diaphragm Booster Pump - 3-Pack",
+    "category": "Pumps",
+    "description": "Larger diaphragm-style booster pump for compatible water-system assemblies. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/high-flow-pump.jpg",
+    "imageSource": "https://www.purewaterproducts.com/aquatec-booster-pumps",
+    "price": 8436,
+    "wholesalePrice": 6580,
+    "stock": 49,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Diaphragm",
+      "Use": "Water pressure boosting",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-pum-030",
+    "name": "Electric RO Booster Pump - 4-Pack",
+    "category": "Pumps",
+    "description": "Electric booster pump format for compatible reverse-osmosis installations. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/electric-booster.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-reverse-osmosis-electric-booster-pump",
+    "price": 9308,
+    "wholesalePrice": 7260,
+    "stock": 56,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Booster pump",
+      "Use": "Compatible RO systems",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-031",
+    "name": "Sediment Filter Cartridge",
+    "category": "Filters",
+    "description": "Replacement sediment cartridge format for compatible filter housings. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sediment-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-5-micron-radial-flow-sediment-filter",
+    "price": 399,
+    "wholesalePrice": 311,
+    "stock": 63,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Type": "Sediment cartridge",
+      "Installation": "Replacement component",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-032",
+    "name": "Carbon Block Filter Cartridge",
+    "category": "Filters",
+    "description": "Carbon-block cartridge format for routine replacement in compatible systems. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/carbon-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-0-5-micron-carbon-block-filter-with-anti-technology",
+    "price": 699,
+    "wholesalePrice": 545,
+    "stock": 70,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Type": "Carbon block",
+      "Installation": "Replacement component",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-033",
+    "name": "RO Membrane Filter Cartridge",
+    "category": "Filters",
+    "description": "Replacement reverse-osmosis membrane cartridge format. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/ro-membrane.png",
+    "imageSource": "https://www.waterdropfilter.com/products/g3p600-ro-system-replacement-filters",
+    "price": 2299,
+    "wholesalePrice": 1793,
+    "stock": 77,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "RO membrane",
+      "Installation": "Replacement component",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-034",
+    "name": "Sediment Filter Cartridge - 2-Pack",
+    "category": "Filters",
+    "description": "Replacement sediment cartridge format for compatible filter housings. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sediment-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-5-micron-radial-flow-sediment-filter",
+    "price": 774,
+    "wholesalePrice": 604,
+    "stock": 84,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Sediment cartridge",
+      "Installation": "Replacement component",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-035",
+    "name": "Carbon Block Filter Cartridge - 2-Pack",
+    "category": "Filters",
+    "description": "Carbon-block cartridge format for routine replacement in compatible systems. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/carbon-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-0-5-micron-carbon-block-filter-with-anti-technology",
+    "price": 1356,
+    "wholesalePrice": 1058,
+    "stock": 91,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Carbon block",
+      "Installation": "Replacement component",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-036",
+    "name": "RO Membrane Filter Cartridge - 2-Pack",
+    "category": "Filters",
+    "description": "Replacement reverse-osmosis membrane cartridge format. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/ro-membrane.png",
+    "imageSource": "https://www.waterdropfilter.com/products/g3p600-ro-system-replacement-filters",
+    "price": 4460,
+    "wholesalePrice": 3479,
+    "stock": 98,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "RO membrane",
+      "Installation": "Replacement component",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-037",
+    "name": "Sediment Filter Cartridge - 3-Pack",
+    "category": "Filters",
+    "description": "Replacement sediment cartridge format for compatible filter housings. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sediment-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-5-micron-radial-flow-sediment-filter",
+    "price": 1161,
+    "wholesalePrice": 906,
+    "stock": 20,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Sediment cartridge",
+      "Installation": "Replacement component",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-038",
+    "name": "Carbon Block Filter Cartridge - 3-Pack",
+    "category": "Filters",
+    "description": "Carbon-block cartridge format for routine replacement in compatible systems. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/carbon-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-0-5-micron-carbon-block-filter-with-anti-technology",
+    "price": 2034,
+    "wholesalePrice": 1587,
+    "stock": 27,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Carbon block",
+      "Installation": "Replacement component",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-039",
+    "name": "RO Membrane Filter Cartridge - 3-Pack",
+    "category": "Filters",
+    "description": "Replacement reverse-osmosis membrane cartridge format. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/ro-membrane.png",
+    "imageSource": "https://www.waterdropfilter.com/products/g3p600-ro-system-replacement-filters",
+    "price": 6690,
+    "wholesalePrice": 5218,
+    "stock": 34,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "RO membrane",
+      "Installation": "Replacement component",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-fil-040",
+    "name": "Sediment Filter Cartridge - 4-Pack",
+    "category": "Filters",
+    "description": "Replacement sediment cartridge format for compatible filter housings. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sediment-filter.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-dash-series-5-micron-radial-flow-sediment-filter",
+    "price": 1548,
+    "wholesalePrice": 1207,
+    "stock": 41,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Type": "Sediment cartridge",
+      "Installation": "Replacement component",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-041",
+    "name": "Chrome Drinking-Water Faucet",
+    "category": "Spares",
+    "description": "Separate drinking-water faucet with a curved spout and lever handle. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drinking-faucet.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-designer-series-contemporary-styled-drinking-water-designer-faucet-with-ceramic-disc-valve-chrome",
+    "price": 1199,
+    "wholesalePrice": 935,
+    "stock": 48,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Component": "Faucet",
+      "Finish": "Chrome",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-042",
+    "name": "Inline RO Flow Restrictor",
+    "category": "Spares",
+    "description": "Inline flow-control replacement part for compatible RO plumbing. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/flow-restrictor.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-premier-reverse-osmosis-flow-restrictor-for-75gpd-and-100gpd-membrane",
+    "price": 199,
+    "wholesalePrice": 155,
+    "stock": 55,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Component": "Flow restrictor",
+      "Installation": "Inline",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-043",
+    "name": "Water-System Sealing O-Ring",
+    "category": "Spares",
+    "description": "Replacement sealing ring for compatible filter or water-treatment assemblies. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sealing-ring.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-2-5-in-media-tank-opening-o-ring",
+    "price": 99,
+    "wholesalePrice": 77,
+    "stock": 62,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "O-ring",
+      "Material": "Elastomer",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-044",
+    "name": "Chrome Drinking-Water Faucet - 2-Pack",
+    "category": "Spares",
+    "description": "Separate drinking-water faucet with a curved spout and lever handle. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drinking-faucet.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-designer-series-contemporary-styled-drinking-water-designer-faucet-with-ceramic-disc-valve-chrome",
+    "price": 2326,
+    "wholesalePrice": 1814,
+    "stock": 69,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "Faucet",
+      "Finish": "Chrome",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-045",
+    "name": "Inline RO Flow Restrictor - 2-Pack",
+    "category": "Spares",
+    "description": "Inline flow-control replacement part for compatible RO plumbing. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/flow-restrictor.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-premier-reverse-osmosis-flow-restrictor-for-75gpd-and-100gpd-membrane",
+    "price": 386,
+    "wholesalePrice": 301,
+    "stock": 76,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "Flow restrictor",
+      "Installation": "Inline",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-046",
+    "name": "Water-System Sealing O-Ring - 2-Pack",
+    "category": "Spares",
+    "description": "Replacement sealing ring for compatible filter or water-treatment assemblies. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sealing-ring.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-2-5-in-media-tank-opening-o-ring",
+    "price": 192,
+    "wholesalePrice": 150,
+    "stock": 83,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "O-ring",
+      "Material": "Elastomer",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-047",
+    "name": "Chrome Drinking-Water Faucet - 3-Pack",
+    "category": "Spares",
+    "description": "Separate drinking-water faucet with a curved spout and lever handle. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drinking-faucet.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-designer-series-contemporary-styled-drinking-water-designer-faucet-with-ceramic-disc-valve-chrome",
+    "price": 3489,
+    "wholesalePrice": 2721,
+    "stock": 90,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "Faucet",
+      "Finish": "Chrome",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-048",
+    "name": "Inline RO Flow Restrictor - 3-Pack",
+    "category": "Spares",
+    "description": "Inline flow-control replacement part for compatible RO plumbing. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/flow-restrictor.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-premier-reverse-osmosis-flow-restrictor-for-75gpd-and-100gpd-membrane",
+    "price": 579,
+    "wholesalePrice": 452,
+    "stock": 97,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "Flow restrictor",
+      "Installation": "Inline",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-049",
+    "name": "Water-System Sealing O-Ring - 3-Pack",
+    "category": "Spares",
+    "description": "Replacement sealing ring for compatible filter or water-treatment assemblies. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/sealing-ring.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-2-5-in-media-tank-opening-o-ring",
+    "price": 288,
+    "wholesalePrice": 225,
+    "stock": 19,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "O-ring",
+      "Material": "Elastomer",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-spa-050",
+    "name": "Chrome Drinking-Water Faucet - 4-Pack",
+    "category": "Spares",
+    "description": "Separate drinking-water faucet with a curved spout and lever handle. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drinking-faucet.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-designer-series-contemporary-styled-drinking-water-designer-faucet-with-ceramic-disc-valve-chrome",
+    "price": 4652,
+    "wholesalePrice": 3629,
+    "stock": 26,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Component": "Faucet",
+      "Finish": "Chrome",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-051",
+    "name": "Water-Line Tubing Roll",
+    "category": "Accessories",
+    "description": "A length of tubing for compatible drinking-water installation connections. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/water-tubing.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-1-4-food-grade-tubing-10ft-length",
+    "price": 249,
+    "wholesalePrice": 194,
+    "stock": 33,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Accessory": "Tubing",
+      "Format": "Roll",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-052",
+    "name": "Filter Mounting Bracket",
+    "category": "Accessories",
+    "description": "Wall-mounting bracket format for compatible filter housings. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/mounting-bracket.jpg",
+    "imageSource": "https://aquasureusa.com/products/fortitude-series-single-stage-mounting-bracket",
+    "price": 349,
+    "wholesalePrice": 272,
+    "stock": 40,
+    "minDealerQty": 5,
+    "featured": true,
+    "specs": {
+      "Accessory": "Mounting bracket",
+      "Installation": "Wall mount",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-053",
+    "name": "Water-System Drain Elbow",
+    "category": "Accessories",
+    "description": "Angled drain connection for a compatible water-system installation. Single unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drain-elbow.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-brine-tank-overflow-drain-elbow",
+    "price": 149,
+    "wholesalePrice": 116,
+    "stock": 47,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Drain elbow",
+      "Connection": "Angled",
+      "Pack quantity": "1",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-054",
+    "name": "Water-Line Tubing Roll - 2-Pack",
+    "category": "Accessories",
+    "description": "A length of tubing for compatible drinking-water installation connections. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/water-tubing.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-1-4-food-grade-tubing-10ft-length",
+    "price": 483,
+    "wholesalePrice": 377,
+    "stock": 54,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Tubing",
+      "Format": "Roll",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-055",
+    "name": "Filter Mounting Bracket - 2-Pack",
+    "category": "Accessories",
+    "description": "Wall-mounting bracket format for compatible filter housings. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/mounting-bracket.jpg",
+    "imageSource": "https://aquasureusa.com/products/fortitude-series-single-stage-mounting-bracket",
+    "price": 677,
+    "wholesalePrice": 528,
+    "stock": 61,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Mounting bracket",
+      "Installation": "Wall mount",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-056",
+    "name": "Water-System Drain Elbow - 2-Pack",
+    "category": "Accessories",
+    "description": "Angled drain connection for a compatible water-system installation. Pack of 2 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drain-elbow.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-brine-tank-overflow-drain-elbow",
+    "price": 289,
+    "wholesalePrice": 225,
+    "stock": 68,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Drain elbow",
+      "Connection": "Angled",
+      "Pack quantity": "2",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-057",
+    "name": "Water-Line Tubing Roll - 3-Pack",
+    "category": "Accessories",
+    "description": "A length of tubing for compatible drinking-water installation connections. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/water-tubing.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-1-4-food-grade-tubing-10ft-length",
+    "price": 725,
+    "wholesalePrice": 566,
+    "stock": 75,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Tubing",
+      "Format": "Roll",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-058",
+    "name": "Filter Mounting Bracket - 3-Pack",
+    "category": "Accessories",
+    "description": "Wall-mounting bracket format for compatible filter housings. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/mounting-bracket.jpg",
+    "imageSource": "https://aquasureusa.com/products/fortitude-series-single-stage-mounting-bracket",
+    "price": 1016,
+    "wholesalePrice": 792,
+    "stock": 82,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Mounting bracket",
+      "Installation": "Wall mount",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-059",
+    "name": "Water-System Drain Elbow - 3-Pack",
+    "category": "Accessories",
+    "description": "Angled drain connection for a compatible water-system installation. Pack of 3 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/drain-elbow.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-brine-tank-overflow-drain-elbow",
+    "price": 434,
+    "wholesalePrice": 339,
+    "stock": 89,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Drain elbow",
+      "Connection": "Angled",
+      "Pack quantity": "3",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  },
+  {
+    "id": "cal-acc-060",
+    "name": "Water-Line Tubing Roll - 4-Pack",
+    "category": "Accessories",
+    "description": "A length of tubing for compatible drinking-water installation connections. Pack of 4 units; photo shows one representative unit. Demo catalogue item; confirm fit and specifications before real purchase.",
+    "image": "/products/water-tubing.jpg",
+    "imageSource": "https://aquasureusa.com/products/aquasure-1-4-food-grade-tubing-10ft-length",
+    "price": 966,
+    "wholesalePrice": 753,
+    "stock": 96,
+    "minDealerQty": 5,
+    "featured": false,
+    "specs": {
+      "Accessory": "Tubing",
+      "Format": "Roll",
+      "Pack quantity": "4",
+      "Catalogue": "Assignment demo"
+    },
+    "active": true
+  }
+]

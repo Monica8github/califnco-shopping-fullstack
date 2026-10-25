@@ -2,10 +2,10 @@
 
 The monorepo now has separate web entry points for the shopping app, administration, and Instagram automation. Each Vercel project receives its own deployment URL. They can share one Firebase project so catalogue, dealer approvals and orders stay synchronized.
 
-| Vercel project name  | CALIFNCO_APP | Web source        | Audience                         |
-| -------------------- | ------------ | ----------------- | -------------------------------- |
-| `califnco-shop`      | `storefront` | `apps/storefront` | Customers and dealers            |
-| `califnco-admin`     | `admin`      | `apps/admin`      | Administrators                   |
+| Vercel project name  | CALIFNCO_APP | Web source                                     | Audience                         |
+| -------------------- | ------------ | ---------------------------------------------- | -------------------------------- |
+| `califnco-shop`      | `storefront` | `apps/storefront`                              | Customers and dealers            |
+| `califnco-admin`     | `admin`      | `apps/admin`                                   | Administrators                   |
 | `califnco-instagram` | `automation` | shared `apps/admin` UI in automation-only mode | Administrators managing AI posts |
 
 These are requested project names, **not confirmed deployment URLs**. Vercel assigns the actual domains when deployment succeeds. No `.vercel.app` link is fabricated in this package.
@@ -23,7 +23,7 @@ Import the same GitHub repository for each intended deployment. For every projec
 - Node: 22.x or 24.x.
 - Environment `CALIFNCO_APP`: the corresponding value from the table.
 
-`scripts/build-deployment.mjs` builds only the selected app and copies its output to the root `dist`. The root `vercel.json` includes an independently deployed API in each project. Each API uses the same configured Firestore, verifies tokens, and enforces roles. The shop does not expose admin navigation; the Instagram project opens the AI studio and integration settings; the admin starts at the operations overview.
+`scripts/build-deployment.mjs` stages the checked-in API runtime required by the Vercel function, builds only the selected app, and copies its output to the root `dist`. The root `vercel.json` includes an independently deployed API in each project. Each API uses the same configured Firestore, verifies tokens, and enforces roles. The shop does not expose admin navigation; the Instagram project opens the AI studio and integration settings; the admin starts at the operations overview.
 
 The automation mode builds the retained `apps/admin` workspace, then opens its restricted automation UI; there is no separate `apps/automation` workspace in this package. Provide Firebase public client configuration and server credentials in each project's own environment. Configure Razorpay test keys and the shared webhook secret for projects serving checkout. Set the webhook to the admin project's `/api/payments/webhook`. Point Android `EXPO_PUBLIC_API_URL` at the admin project's origin. Native API calls remain available there independently of the admin UI role gate.
 
