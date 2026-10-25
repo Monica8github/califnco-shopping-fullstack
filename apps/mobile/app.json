@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Califnco Water Care",
+    "slug": "califnco-water-care",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "califnco",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.califnco.watercare",
+      "versionCode": 1,
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-notifications",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Use your location to place your delivery pin."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": false,
+    "outDir": ".local/runtime",
+    "rootDir": "."
+  },
+  "include": [
+    "api/**/*.ts",
+    "functions/**/*.ts",
+    "automation/**/*.ts",
+    "shared/**/*.ts"
+  ]
+}

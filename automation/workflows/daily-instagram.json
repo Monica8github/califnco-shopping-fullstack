@@ -1,0 +1,247 @@
+{
+  "name": "Califnco - Daily AI Instagram product",
+  "nodes": [
+    {
+      "id": "daily-at-9-am-ist",
+      "name": "Daily at 9 AM IST",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "manual-demonstration",
+      "name": "Manual demonstration",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 200],
+      "parameters": {}
+    },
+    {
+      "id": "configure-api",
+      "name": "Configure API",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [240, 100],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "api-base",
+              "name": "apiBase",
+              "type": "string",
+              "value": "https://YOUR-PROJECT.vercel.app"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "run-one-persisted-step",
+      "name": "Run one persisted step",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 100],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Configure API').first().json.apiBase.replace(/\\/$/, '') + '/api/automation/daily' }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 65000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "SELECT_YOUR_CREDENTIAL",
+          "name": "Califnco scheduler"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "count-attempts",
+      "name": "Count attempts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 100],
+      "parameters": {
+        "jsCode": "return $input.all().map(item => ({json: {...item.json, attempt: $runIndex + 1}}));"
+      }
+    },
+    {
+      "id": "finished-or-limit-reached",
+      "name": "Finished or limit reached",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [960, 100],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "done-or-limit",
+              "leftValue": "={{ $json.done === true || $json.attempt >= 20 }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "check-final-result",
+      "name": "Check final result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1220, 0],
+      "parameters": {
+        "jsCode": "const r = $input.first().json;\nif (!r.done) throw new Error('20-step limit reached. State saved; resume manually after inspecting AI studio.');\nif (['failed','needs_review'].includes(r.post.status)) throw new Error(r.post.error || r.post.status);\nreturn [{json:{jobId:r.post.id,status:r.post.status,published:r.post.status === 'published',aiGenerated:r.post.aiGenerated,mediaId:r.post.mediaId || null,imageUrl:r.post.imageUrl,caption:r.post.caption}}];"
+      }
+    },
+    {
+      "id": "wait-before-next-step",
+      "name": "Wait before next step",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [960, 330],
+      "parameters": {
+        "resume": "timeInterval",
+        "amount": 15,
+        "unit": "seconds"
+      },
+      "webhookId": "califnco-resume-step"
+    },
+    {
+      "id": "read-before-activation",
+      "name": "Read before activation",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [0, -360],
+      "parameters": {
+        "content": "## Califnco daily Instagram\nSet Configure API. Select an HTTP Header Auth credential on Run one persisted step. Name: Authorization. Value: Bearer followed by your CRON_SECRET.\nDefault: draft only. Real AI API keys and Instagram permissions required. Local fixtures are NOT AI-generated and CANNOT publish.\nSchedule: 09:00 Asia/Kolkata. Import inactive, demonstrate, then activate. Requires a persistent n8n host.",
+        "height": 300,
+        "width": 450
+      }
+    }
+  ],
+  "connections": {
+    "Daily at 9 AM IST": {
+      "main": [
+        [
+          {
+            "node": "Configure API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Manual demonstration": {
+      "main": [
+        [
+          {
+            "node": "Configure API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Configure API": {
+      "main": [
+        [
+          {
+            "node": "Run one persisted step",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run one persisted step": {
+      "main": [
+        [
+          {
+            "node": "Count attempts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Count attempts": {
+      "main": [
+        [
+          {
+            "node": "Finished or limit reached",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait before next step": {
+      "main": [
+        [
+          {
+            "node": "Run one persisted step",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Finished or limit reached": {
+      "main": [
+        [
+          {
+            "node": "Check final result",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait before next step",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "executionTimeout": 1800,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all"
+  },
+  "pinData": {},
+  "tags": []
+}

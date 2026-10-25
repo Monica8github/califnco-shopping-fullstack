@@ -1,0 +1,50 @@
+{
+  "name": "califnco-shopping-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/admin",
+    "apps/storefront",
+    "apps/mobile"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:api\" \"npm:dev:storefront\"",
+    "dev:api": "node --watch --import tsx --env-file-if-exists=.env functions/dev.ts",
+    "dev:admin": "npm run dev -w apps/admin -- --host 0.0.0.0 --port 4173",
+    "build": "npm run build:storefront",
+    "check": "tsc --noEmit && npm run check -w apps/admin && npm run check -w apps/storefront && npm run check -w apps/mobile",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "seed": "node --import tsx --env-file-if-exists=.env scripts/seed.ts",
+    "bootstrap:admin": "node --import tsx --env-file-if-exists=.env scripts/admin.ts",
+    "automation:run": "node --import tsx --env-file-if-exists=.env automation/run.ts",
+    "mobile": "npm run start -w apps/mobile",
+    "emulator:test": "firebase emulators:exec --project demo-califnco --only auth,firestore \"node scripts/run-emulator-tests.mjs\"",
+    "build:admin": "npm run build -w apps/admin",
+    "build:storefront": "npm run build -w apps/storefront",
+    "build:deployment": "node scripts/build-deployment.mjs",
+    "dev:storefront": "npm run dev -w apps/storefront -- --host 0.0.0.0 --port 4174",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check:runtime": "tsc -p tsconfig.runtime.json && node scripts/check-runtime.mjs"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.0",
+    "firebase-admin": "14.5.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.0",
+    "@types/node": "^22.18.0",
+    "@vercel/node": "^5.5.6",
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.27.0",
+    "firebase-tools": "^14.22.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.2"
+  }
+}
