@@ -16,13 +16,6 @@ if (!workspace) {
   throw new Error("CALIFNCO_APP must be admin, storefront or automation");
 }
 
-const deploymentDirectory = resolve(root, ".local/deployment");
-mkdirSync(deploymentDirectory, { recursive: true });
-cpSync(
-  resolve(root, "api/runtime.mjs"),
-  resolve(deploymentDirectory, "runtime.mjs"),
-);
-
 const environment = { ...process.env };
 if (app === "automation") environment.VITE_CALIFNCO_APP = "automation";
 

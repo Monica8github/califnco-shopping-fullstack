@@ -38,23 +38,11 @@ Optional SMS: configure your TextBee Android gateway device and `TEXTBEE_API_KEY
 
 ## 5. GitHub
 
-Create a repository named `califnco-ecommerce-ai-automation` in the intended account. Push this complete monorepo, including the product assets and lockfile. Exclude `.env`, service-account files, `node_modules`, generated Android directories and build outputs. The `.gitignore` already covers these.
-
-If initializing from an archive:
-
-```bash
-git init -b main
-git add .
-git commit -m "Build Califnco commerce apps and daily social workflow"
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-Use your ordinary GitHub authentication. Never paste a token into a remote URL or a chat message.
+Use the existing `Monica8github/califnco-shopping-fullstack` repository connected to this project. Do not create another repository. Commit and push changes through your normal GitHub workflow only after reviewing `git status` and `git diff`. The `.gitignore` excludes local environment files, service-account files, `node_modules`, generated Android directories and build outputs. Never put credentials in GitHub or a Git remote URL.
 
 ## 6. Vercel
 
-Import the repository into the authorized Vercel workspace three times, following [SEPARATE_DEPLOYMENTS.md](SEPARATE_DEPLOYMENTS.md). Use the **repository root**, framework preset **Other**, install command `npm ci`, build command `npm run build:deployment`, output directory `dist`, and the correct `CALIFNCO_APP` value for each project. The checked-in `vercel.json` supplies these settings, the API function, and routing.
+Import the existing repository into Vercel following [SEPARATE_DEPLOYMENTS.md](SEPARATE_DEPLOYMENTS.md). Use the **repository root**, framework preset **Other**, install command `npm ci`, build command `npm run build:deployment`, output directory `dist`, Node.js **24.x**, and the appropriate `CALIFNCO_APP` value. The checked-in `vercel.json` supplies the commands, API function settings, and routing.
 
 Set Node 22.x or 24.x. Add server variables from `.env.example` and the public `VITE_FIREBASE_*` values to the appropriate Preview/Production environments. Set `DEMO_MODE=false`. Add `CRON_SECRET`, a random 32-byte secret shared only with n8n's HTTP credential. Keep `INSTAGRAM_PUBLISH_ENABLED=false` until the live draft has been reviewed. Redeploy whenever client build variables change.
 
